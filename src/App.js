@@ -1,10 +1,12 @@
 import "./App.css";
 import Analytics from "./components/Analytics";
-import Cards from "./components/Cards/Cards";
+import Company from "./components/Company/Company";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Nav/Navbar";
 import Newsletter from "./components/Newsletter";
+
+
 
 function App() {
   return (
@@ -14,7 +16,7 @@ function App() {
         <Hero />
         <Analytics />
         <Newsletter />
-        <Cards />
+        <Company />
         <Footer />
       </main>
     </>

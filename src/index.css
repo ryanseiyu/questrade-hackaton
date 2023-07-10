@@ -32,7 +32,7 @@ body {
   }
   .btn {
     @apply text-base  overflow-hidden shadow-md rounded-lg font-medium
-     text-black text-center relative z-10;
+    text-black text-center relative z-10;
   }
   .btn-primary {
     @apply before:bg-primary;
@@ -100,6 +100,8 @@ body {
   text-shadow: -0.01em -0.01em 0.01em #000;
   animation: rise 2s ease-in-out 0.5s forwards;
 }
+
+
 
 .outline {
   background-clip: text;

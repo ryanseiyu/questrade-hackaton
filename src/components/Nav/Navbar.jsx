@@ -23,9 +23,9 @@ const Navbar = () => {
   };
 
   return (
-    <header className="h-[20vh]">
+    <header className="h-[10vh]">
       <nav className="container text-white flex justify-between items-center px-4 mx-auto h-24">
-        <h1 className="w-full text-3xl font-bold text-primary">Finacia.</h1>
+        <h1 className="w-full text-3xl font-bold text-primary">Semprese</h1>
         <NavbarList ulStyles="hidden gap-12 md:flex" liStyles="" />
         <div onClick={handleNav} className="cursor-pointer block md:hidden">
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
