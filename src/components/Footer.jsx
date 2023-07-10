@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaTwitterSquare,
 } from "react-icons/fa";
+import Logo from "../assets/logo.png"
 
 const Footer = () => {
   return (
@@ -13,6 +14,7 @@ const Footer = () => {
       <div className="container mx-auto py-16 px-4 grid lg:grid-cols-3 gap-20 text-gray-300">
         <div>
           <h1 className="w-full text-3xl font-bold text-primary">Semprese</h1>
+          <img src={Logo} className="w-20" alt="" />
           <p className="py-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
             ullam iste repellat consequatur libero reiciendis, blanditiis
